@@ -10,7 +10,7 @@ On my tests, the predicted deaths were better than predicted cases.
 
 While this software project predicts COVID-19, deaths and especially cases are still random. USE THIS SOFTWARE AND DATA AT YOUR OWN RISK!
 
-# Running
+**Running**
 
 You need Python 3(at least 3.8 is recommended) and pip.
 
