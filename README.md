@@ -36,10 +36,10 @@ Having any issues? Simply open an issue.
 
 *NOTE*: A data repo is on its way.
 
-# Contributing
+**Contributing**
 
 Simply send a PR ;)
 
-# License
+**License**
 
 See LICENSE at the root.
