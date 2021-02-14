@@ -1,3 +1,4 @@
+# NOTE: This is mostly for GitHub Actions, and produces a big image.
 FROM tensorflow/tensorflow:latest-devel
 
 WORKDIR /app
