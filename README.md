@@ -1,4 +1,4 @@
-# US COVID-19 Predictor
+## US COVID-19 Predictor
 
 This software project tries to predict US COVID-19 cases and deaths.
 
