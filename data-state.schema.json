@@ -1,0 +1,25 @@
+{
+    "$id": "data-state.schema.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "State of COVID-19",
+    "type": "object",
+    "required": [
+        "date",
+        "cases",
+        "deaths"
+    ],
+    "properties": {
+        "date": {
+            "description": "Current date in %Y-%m-%d format",
+            "type": "string"
+        },
+        "cases": {
+            "description": "Number of cases",
+            "type": "integer"
+        },
+        "deaths": {
+            "description": "Number of deaths",
+            "type": "integer"
+        }
+    }
+}
