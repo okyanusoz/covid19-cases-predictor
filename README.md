@@ -1,4 +1,4 @@
-## US COVID-19 Predictor
+# US COVID-19 Predictor
 
 This software project tries to predict US COVID-19 cases and deaths.
 
@@ -6,7 +6,7 @@ Based on top of work by Anaiy Somalwar: https://github.com/anaiy2004/COVID-19-Fo
 
 On my tests, the predicted deaths were better than predicted cases.
 
-# Disclaimer
+**Disclaimer**
 
 While this software project predicts COVID-19, deaths and especially cases are still random. USE THIS SOFTWARE AND DATA AT YOUR OWN RISK!
 
