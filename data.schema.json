@@ -4,11 +4,11 @@
     "description": "Representation of predicted and current cases",
     "type": "object",
     "required": [
-        "predicted",
+        "prediction",
         "current"
     ],
     "properties": {
-        "predicted": {
+        "prediction": {
             "description": "Predicted cases",
             "$ref": "data-state.schema.json"
         },
