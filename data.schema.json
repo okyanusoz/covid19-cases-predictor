@@ -1,7 +1,7 @@
 {
     "$id": "data.schema.json",
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "description": "Representation of predicted and current cases",
+    "description": "Representation of predicted and current cases and deaths",
     "type": "object",
     "required": [
         "prediction",
@@ -9,11 +9,11 @@
     ],
     "properties": {
         "prediction": {
-            "description": "Predicted cases",
+            "description": "Predicted cases and deaths",
             "$ref": "data-state.schema.json"
         },
         "current": {
-            "description": "Current cases",
+            "description": "Current cases and deaths",
             "$ref": "data-state.schema.json"
         }
     }
