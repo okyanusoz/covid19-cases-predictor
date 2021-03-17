@@ -5,7 +5,6 @@ Can also be used programmatically.
 Most of the code from https://github.com/anaiy2004/COVID-19-Forecasting.
 Thank you so much Anaiy Somalwar!
 """
-import csv
 import keras
 import pandas
 from keras.models import Model
