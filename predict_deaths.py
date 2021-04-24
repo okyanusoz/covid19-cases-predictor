@@ -7,14 +7,10 @@ Thank you so much Anaiy Somalwar!
 """
 import keras
 import pandas
-from keras.models import Model
-from keras.layers import Dense, Dropout, LSTM, Input, Activation, concatenate, BatchNormalization, Conv1D, Conv2D, Flatten, MaxPooling1D
 from keras import optimizers
 import numpy as np
 import tensorflow as tf
 import math
-from keras.callbacks import EarlyStopping, ModelCheckpoint
-from matplotlib import pyplot as plt
 from sklearn.linear_model import RidgeCV
 import sys
 
