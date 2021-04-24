@@ -8,7 +8,6 @@ Thank you so much Anaiy Somalwar!
 import keras
 import pandas
 import numpy as np
-import tensorflow as tf
 import math
 from sklearn.linear_model import RidgeCV
 from sklearn.model_selection import cross_val_score
