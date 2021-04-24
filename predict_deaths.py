@@ -6,9 +6,7 @@ Most of the code from https://github.com/anaiy2004/COVID-19-Forecasting.
 Thank you so much Anaiy Somalwar!
 """
 import pandas
-from keras import optimizers
 import numpy as np
-import tensorflow as tf
 import math
 from sklearn.linear_model import RidgeCV
 import sys
