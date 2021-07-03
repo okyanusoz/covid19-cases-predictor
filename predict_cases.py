@@ -34,7 +34,7 @@ def predict_cases(csv_file_path):
   betterinputs = betterinputs[0:len(df) - past] # - 0
   betteroutputs = betteroutputs[0:len(df) - past]
   days = days[0:len(df) - past]
-  split = int(0.8*len(betterinputs))
+  split = int(0.9*len(betterinputs))
   X_train, X_test, y_train, y_test = betterinputs[:split], betterinputs[split:], betteroutputs[:split], betteroutputs[split:]
   X_train = np.expand_dims(X_train, axis=2)  
   X_test = np.expand_dims(X_test, axis=2) 
