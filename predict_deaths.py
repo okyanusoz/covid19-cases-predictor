@@ -7,7 +7,6 @@ Thank you so much Anaiy Somalwar!
 """
 import pandas
 import numpy as np
-import math
 from sklearn.linear_model import RidgeCV
 import sys
 
