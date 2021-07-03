@@ -9,17 +9,12 @@ import pandas
 import numpy as np
 import math
 from sklearn.linear_model import RidgeCV
-from sklearn.model_selection import cross_val_score
-from sklearn.linear_model import LinearRegression
-from sklearn import svm
-from sklearn.ensemble import GradientBoostingRegressor
 import sys
 
 def predict_cases(csv_file_path):
   df = pandas.read_csv(csv_file_path)
   inputs = df['cases'].to_numpy()
   outputs = df['deaths'].to_numpy()
-  df.tail(5)
   days = []
   count = 0
   for elements in inputs:
