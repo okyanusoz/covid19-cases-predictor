@@ -8,6 +8,7 @@ Thank you so much Anaiy Somalwar!
 import pandas
 import numpy as np
 from sklearn.linear_model import RidgeCV
+from sklearn.metrics import mean_absolute_error
 import sys
 
 def predict_deaths(csv_file_path):
@@ -44,6 +45,8 @@ def predict_deaths(csv_file_path):
   X_train, X_test, y_train, y_test = betterinputs[:split], betterinputs[split:], betteroutputs[:split], betteroutputs[split:]
   model.fit(X_train, y_train)
 
+  print(f"Mean Absolute Error for the test set: {mean_absolute_error(y_test, model.predict(X_test))}")
+  
   size = (2 , past  * 2)
   finalInput = np.zeros(size)
   temp = np.zeros(past * 2)
