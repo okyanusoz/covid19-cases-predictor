@@ -44,8 +44,6 @@ def predict_deaths(csv_file_path):
   model = RidgeCV(cv=2)
   X_train, X_test, y_train, y_test = betterinputs[:split], betterinputs[split:], betteroutputs[:split], betteroutputs[split:]
   model.fit(X_train, y_train)
-
-  print(f"Mean Absolute Error for the test set: {mean_absolute_error(y_test, model.predict(X_test))}")
   
   size = (2 , past  * 2)
   finalInput = np.zeros(size)
