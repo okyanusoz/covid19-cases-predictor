@@ -36,7 +36,7 @@ def predict_deaths(csv_file_path):
   betterinputs = betterinputs[0:len(df)-past]  #
   betteroutputs = betteroutputs[0:len(df)-past] #
   days = days[0:len(df) - past]
-  split = int(0.8*len(betterinputs))
+  split = int(0.9*len(betterinputs))
   X_train, X_test, y_train, y_test = betterinputs[:split], betterinputs[split:], betteroutputs[:split], betteroutputs[split:]
   days = days[split:]
   X_train = np.expand_dims(X_train, axis=2)  
