@@ -7,7 +7,8 @@ Thank you so much Anaiy Somalwar!
 """
 import pandas
 import numpy as np
-from sklearn.linear_model import RidgeCV
+from sklearn.linear_model import LinearRegression, RidgeCV
+from sklearn.ensemble import VotingRegressor
 from sklearn.metrics import mean_absolute_error
 import sys
 
@@ -41,7 +42,7 @@ def predict_deaths(csv_file_path):
   days = days[split:]
   X_train = np.expand_dims(X_train, axis=2)  
   X_test = np.expand_dims(X_test, axis=2)
-  model = RidgeCV(cv=2)
+  model = VotingRegressor([("linear", LinearRegression()), ("ridge", RidgeCV(cv=2))])
   X_train, X_test, y_train, y_test = betterinputs[:split], betterinputs[split:], betteroutputs[:split], betteroutputs[split:]
   model.fit(X_train, y_train)
   
