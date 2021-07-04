@@ -44,7 +44,7 @@ python3 predict_deaths.py US.csv
 python3 predict_cases.py US.csv
 ```
 
-If you want to generate a data.json file, which contains predicted and current cases and deaths in JSON, run:
+If you want to generate a data.json file, which contains predicted and current total cases and deaths in JSON, run:
 
 ```bash
 python3 tools/create_data_json.py US.csv
