@@ -4,7 +4,7 @@ This software project tries to predict US COVID-19 cases and deaths.
 
 Based on top of work by Anaiy Somalwar: https://github.com/anaiy2004/COVID-19-Forecasting
 
-On my tests, the predicted deaths were better than predicted cases.
+In my tests, the predicted deaths were better than predicted cases.
 
 ## Disclaimer
 
