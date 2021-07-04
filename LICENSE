@@ -20,6 +20,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+Special thanks to Anaiy Somalwar for creating this post https://towardsdatascience.com/using-machine-learning-to-model-the-growth-of-covid-19-2f3b0af304bb and publishing the code in this GitHub repo: https://github.com/anaiy2004/COVID-19-Forecasting.
+
 Some of the files have been taken from these sources:
 1. predict_cases.py and predict_deaths.py uses code from Anaiy Somalwar.
 2. US.csv and data.json(in the data repository) contain data from JHU CSSE COVID-19 Data: https://github.com/CSSEGISandData/COVID-19, which is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) by the Johns Hopkins University on behalf of its Center for Systems Science in Engineering. Copyright Johns Hopkins University 2020.
+
