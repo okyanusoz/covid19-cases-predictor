@@ -15,7 +15,7 @@ print("Getting a list of CSV files available for download...")
 r = requests.get("https://api.github.com/repos/CSSEGISandData/COVID-19/contents/csse_covid_19_data/csse_covid_19_daily_reports")
 csv_files = {}
 for i in r.json():
-    if(not i["name"].endswith(".csv")):
+    if not i["name"].endswith(".csv"):
         continue
     date = i["name"].strip(".csv")
     csv_files[date] = i["download_url"]
@@ -33,7 +33,7 @@ for i in tqdm(csv_files):
     deaths = 0
     for x in reader:
         country_region = x.get("Country_Region") if x.get("Country_Region") else x.get("Country/Region")
-        if(country_region == country):
+        if country_region == country:
             try:
                 cases += int(x["Confirmed"])
                 deaths += int(x["Deaths"])
