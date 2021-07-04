@@ -14,11 +14,11 @@
             "type": "string"
         },
         "cases": {
-            "description": "Number of cases",
+            "description": "Total number of cases",
             "type": "integer"
         },
         "deaths": {
-            "description": "Number of deaths",
+            "description": "Total number of deaths",
             "type": "integer"
         }
     }
