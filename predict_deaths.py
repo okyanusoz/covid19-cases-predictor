@@ -23,7 +23,7 @@ def predict_deaths(csv_file_path):
     days.append(count)
   df['days'] = days
   df.head()
-  past = 5 
+  past = 10
   s = (len(inputs) , past  * 2)
   betterinputs = np.zeros(s)
   betteroutputs = np.zeros(len(inputs))
