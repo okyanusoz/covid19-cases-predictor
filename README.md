@@ -1,4 +1,8 @@
-# US COVID-19 Predictor
+# Deprecated
+
+Sorry, I'm no longer maintaining this project.
+
+## US COVID-19 Predictor
 
 This software project tries to predict US COVID-19 cases and deaths.
 
